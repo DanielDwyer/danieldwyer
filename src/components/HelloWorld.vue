@@ -36,7 +36,12 @@
               v-if="!showPhone"
             >
               <v-list-item-subtitle>
-                click <v-icon color="primary">mdi-phone</v-icon> to show
+                click <v-icon
+                  color="secondary"
+                  @click="showPhone = !showPhone"
+                >
+                  mdi-phone
+                </v-icon> to show
               </v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>
@@ -60,7 +65,12 @@
               v-if="!showEmail"
             >
               <v-list-item-subtitle>
-                click <v-icon color="primary">mdi-email</v-icon> to show
+                click <v-icon
+                        color="secondary"
+                        @click="showEmail = !showEmail"
+                      >
+                        mdi-email
+                      </v-icon> to show
               </v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>
@@ -84,7 +94,12 @@
               v-if="!showAddress"
             >
               <v-list-item-subtitle>
-                click <v-icon color="primary">mdi-map-marker</v-icon> to show
+                click <v-icon
+                        color="secondary"
+                        @click="showAddress = !showAddress"
+                      >
+                        mdi-map-marker
+                      </v-icon> to show
               </v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>

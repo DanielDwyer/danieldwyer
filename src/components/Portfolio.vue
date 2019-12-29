@@ -51,8 +51,8 @@
                 v-if="item.imagePath === '../assets/marketing360.png'"
                 :src="require('../assets/marketing360.png')"
                 contain
-                max-height="12.5em"
-                max-width="12.5em"
+                max-height="10em"
+                max-width="10em"
                 @click="openProject('https://www.marketing360.com/')"
               />
             </template>

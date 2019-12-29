@@ -6,15 +6,27 @@
       <Welcome />
       <v-divider class="divider" />
       <Experiences />
-      <v-divider class="divider" />
+      <span @click="scrollTo">
+        TOP<v-icon color="primary">mdi-apple-keyboard-shift</v-icon>
+      </span>
+      <v-divider class="divider-special" />
       <Skills />
-      <v-divider class="divider" />
-      <Education />
-      <v-divider class="divider" />
+      <span @click="scrollTo">
+        TOP<v-icon color="primary">mdi-apple-keyboard-shift</v-icon>
+      </span>
+      <v-divider class="divider-special" />
       <Portfolio />
-      <v-divider class="divider" />
+      <span @click="scrollTo">
+        TOP<v-icon color="primary">mdi-apple-keyboard-shift</v-icon>
+      </span>
+      <v-divider class="divider-special" />
+      <Education />
+      <span @click="scrollTo" class="top">
+        TOP<v-icon color="primary">mdi-apple-keyboard-shift</v-icon>
+      </span>
     </v-content>
-    <v-footer color="secondary">
+    <v-footer color="secondary" class="display-1 font-weight-thin">
+      <span>DPD</span>
       <v-spacer></v-spacer>
       <div>&copy; {{ new Date().getFullYear() }}</div>
     </v-footer>
@@ -39,6 +51,11 @@ export default {
     Education,
     Portfolio,
   },
+  methods: {
+    scrollTo() {
+      window.scrollTo(0, 0);
+    },
+  },
 };
 </script>
 
@@ -54,5 +71,8 @@ export default {
 }
 .divider {
   margin: 7.5em;
+}
+.divider-special {
+  margin: 0 7.5em 7.5em 7.5em;
 }
 </style>
