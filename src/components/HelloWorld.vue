@@ -1,33 +1,102 @@
-<template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
+<template class="hello">
+  <!-- <v-container fill-height grid-list-md> -->
+  <v-container>
+    <v-layout row wrap align-center text-center>
+      <v-flex xs12 sm3>
+        <h1 class="display-1 font-weight-thin my-5">
+          👋 Hello World 🌎
+        </h1>
+      </v-flex>
+      <v-flex xs12 sm6>
+        <v-img
+          alt="Daniel Dwyer"
+          :src="require('../assets/full.gif')"
+          contain
+        />
+        <!-- TODO move v-list into modules directory (currently does not exist) -->
+        <v-list
+          color="#fafafa"
+          dense
+          :style="roleADexStyle"
+        >
+          <v-list-item >
+            <v-list-item-icon
+              @click="showPhone = !showPhone"
+            >
+              <v-icon color="primary">mdi-phone</v-icon>
+            </v-list-item-icon>
+
+            <v-list-item-content
+              v-if="showPhone"
+            >
+              <v-list-item-title>(970) 231-6297</v-list-item-title>
+              <v-list-item-subtitle>Mobile</v-list-item-subtitle>
+            </v-list-item-content>
+            <v-list-item-content
+              v-if="!showPhone"
+            >
+              <v-list-item-subtitle>
+                click <v-icon color="primary">mdi-phone</v-icon> to show
+              </v-list-item-subtitle>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-divider inset></v-divider>
+
+          <v-list-item >
+            <v-list-item-icon
+              @click="showEmail = !showEmail"
+            >
+              <v-icon color="primary">mdi-email</v-icon>
+            </v-list-item-icon>
+
+            <v-list-item-content
+              v-if="showEmail"
+            >
+              <v-list-item-title>danielpatrickdwyer@gmail.com</v-list-item-title>
+              <v-list-item-subtitle>Personal</v-list-item-subtitle>
+            </v-list-item-content>
+            <v-list-item-content
+              v-if="!showEmail"
+            >
+              <v-list-item-subtitle>
+                click <v-icon color="primary">mdi-email</v-icon> to show
+              </v-list-item-subtitle>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-divider inset></v-divider>
+
+          <v-list-item >
+            <v-list-item-icon
+              @click="showAddress = !showAddress"
+            >
+              <v-icon color="primary">mdi-map-marker</v-icon>
+            </v-list-item-icon>
+
+            <v-list-item-content
+              v-if="showAddress"
+            >
+              <v-list-item-title>416 East 117th Street</v-list-item-title>
+              <v-list-item-subtitle>New York, New York 10035</v-list-item-subtitle>
+            </v-list-item-content>
+            <v-list-item-content
+              v-if="!showAddress"
+            >
+              <v-list-item-subtitle>
+                click <v-icon color="primary">mdi-map-marker</v-icon> to show
+              </v-list-item-subtitle>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list>
+      </v-flex>
+      <v-flex xs12 sm3>
+        <h1 class="display-1 font-weight-thin my-5">
+          I'm Daniel Dwyer
+        </h1>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
@@ -36,23 +105,18 @@ export default {
   props: {
     msg: String,
   },
+  data: () => ({
+    showPhone: false,
+    showEmail: false,
+    showAddress: false,
+    roleADexStyle: 'border-top-left-radius: 0;border-top-right-radius: 0;border: 4px solid #2196F3; border-top: 0;border-right: 6px solid #4CAF50;',
+  }),
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.example-class {
+  color: red;
 }
 </style>
