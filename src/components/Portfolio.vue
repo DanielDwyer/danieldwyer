@@ -27,32 +27,32 @@
                 v-if="item.imagePath === '../assets/flux.png'"
                 :src="require('../assets/flux.png')"
                 contain
-                max-height="7.5em"
-                max-width="7.5em"
+                max-height="10em"
+                max-width="10em"
                 @click="openProject('https://www.fluxwork.co/')"
               />
               <v-img
                 v-if="item.imagePath === '../assets/itemize.jpg'"
                 :src="require('../assets/itemize.jpg')"
                 contain
-                max-height="7.5em"
-                max-width="7.5em"
+                max-height="10em"
+                max-width="10em"
                 @click="openProject('https://itemize.com/automated-accounts-itemize-retriever/')"
               />
               <v-img
                 v-if="item.imagePath === '../assets/topRatedLocal.png'"
                 :src="require('../assets/topRatedLocal.png')"
                 contain
-                max-height="7.5em"
-                max-width="7.5em"
+                max-height="10em"
+                max-width="10em"
                 @click="openProject('https://www.topratedlocal.com/')"
               />
               <v-img
                 v-if="item.imagePath === '../assets/marketing360.png'"
                 :src="require('../assets/marketing360.png')"
                 contain
-                max-height="7.5em"
-                max-width="7.5em"
+                max-height="12.5em"
+                max-width="12.5em"
                 @click="openProject('https://www.marketing360.com/')"
               />
             </template>

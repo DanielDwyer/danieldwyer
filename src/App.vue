@@ -14,7 +14,7 @@
       <Portfolio />
       <v-divider class="divider" />
     </v-content>
-    <v-footer>
+    <v-footer color="secondary">
       <v-spacer></v-spacer>
       <div>&copy; {{ new Date().getFullYear() }}</div>
     </v-footer>
