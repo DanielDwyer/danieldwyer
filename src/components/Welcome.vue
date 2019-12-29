@@ -17,14 +17,27 @@
           <span class="welcome-11">Добро пожаловать! </span>
           <span class="welcome-12">Velkommen </span>
         </div>
-        <span class="title">
-          Venison porchetta tenderloin landjaeger beef filet mignon
-          pork chop short loin burgdoggen ham hock sirloin picanha t-bone turducken.
-           Drumstick cupim beef ribs strip steak, alcatra ribeye prosciutto kevin.
-           T-bone beef ribs bresaola, ham hock short loin fatback shoulder.
-           Picanha ground round tail tongue, flank shank doner shoulder venison short
-           loin drumstick. Ribeye jerky chislic prosciutto, chuck pork loin turducken jowl.
-        </span>
+        <br />
+        <div class="title">
+          Hey there, I am glad you stopped by.
+          My contact information, if needed, is listed above, feel
+          free to reach out to me. I would love to hear from you. The intention for this
+          website is to showcase the skills and experiences I have gained while working
+          as a Full Stack JavaScript Developer. As you will see, I love getting my hands
+          dirty with both back and front end challenges. In my almost four years working
+          as a Full Stack developer, I have been able to contribute to a large variety of
+          codebases, utilize fun and exciting frameworks and libraries, and most
+          importantly work with some great and passionate folks. With a can-do attitude,
+          the right team, and a proper
+          culture any problem can be a joy to solve.
+        </div>
+        <br />
+        <div class="title">
+          When I am not crushing some code, I am most likely spending time with my
+          lovely wife Lydia and our two year old black lab mix, Marcy. We moved from
+          Fort Collins, Colorado to New York City in the summer of 2018. We absolutely
+          love life in the city. My hobbies include table tennis, cycling, music, and hiking.
+        </div>
       </v-flex>
     </v-layout>
   </v-container>

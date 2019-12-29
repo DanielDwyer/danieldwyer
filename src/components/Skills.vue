@@ -7,12 +7,15 @@
               Skills
             </span>
             <span class="font-weight-thin subtitle-1">
-              Brisket boudin short loin tail cupim. Kevin doner pig venison meatball.
-              Pork pastrami salami sausage, meatloaf brisket chicken pork loin landjaeger
-              andouille kevin pancetta. Shank spare ribs chuck picanha fatback pork belly
-              chicken drumstick tongue pork chop kielbasa. Swine pork loin cupim chislic
-              hamburger pig jerky tail. Turkey chicken pig shank porchetta ribeye
-              cupim pork chop salami flank prosciutto.
+              Ignorance and bungling with love are better than wisdom and skill without.
+            </span>
+            <br />
+            <span class="font-weight-bold subtitle-1">
+              - Henry David Thoreau
+            </span>
+            <br />
+            <span class="title" style="color: gray">
+              These are the tools and technologies I am skilled at
             </span>
           </div>
           <v-data-table

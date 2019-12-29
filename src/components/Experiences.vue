@@ -7,12 +7,16 @@
               Experiences
             </span>
             <span class="font-weight-thin subtitle-1">
-              Brisket boudin short loin tail cupim. Kevin doner pig venison meatball.
-              Pork pastrami salami sausage, meatloaf brisket chicken pork loin landjaeger
-              andouille kevin pancetta. Shank spare ribs chuck picanha fatback pork belly
-              chicken drumstick tongue pork chop kielbasa. Swine pork loin cupim chislic
-              hamburger pig jerky tail. Turkey chicken pig shank porchetta ribeye
-              cupim pork chop salami flank prosciutto.
+              The purpose of life is to live it, to taste experience to the utmost,
+              to reach out eagerly and without fear for newer and richer experience.
+            </span>
+            <br />
+            <span class="font-weight-bold subtitle-1">
+              - Eleanor Roosevelt
+            </span>
+            <br />
+            <span class="title" style="color: gray">
+              These experiences have made me who I am
             </span>
           </div>
           <v-btn

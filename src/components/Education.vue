@@ -7,12 +7,16 @@
               Education
             </span>
             <span class="font-weight-thin subtitle-1">
-              Brisket boudin short loin tail cupim. Kevin doner pig venison meatball.
-              Pork pastrami salami sausage, meatloaf brisket chicken pork loin landjaeger
-              andouille kevin pancetta. Shank spare ribs chuck picanha fatback pork belly
-              chicken drumstick tongue pork chop kielbasa. Swine pork loin cupim chislic
-              hamburger pig jerky tail. Turkey chicken pig shank porchetta ribeye
-              cupim pork chop salami flank prosciutto.
+              Education is the passport to the future, for tomorrow
+              belongs to those who prepare for it today.
+            </span>
+            <br />
+            <span class="font-weight-bold subtitle-1">
+              - Malcolm X
+            </span>
+            <br />
+            <span class="title" style="color: gray">
+              These schools allowed me to create a solid foundation
             </span>
           </div>
           <v-data-table

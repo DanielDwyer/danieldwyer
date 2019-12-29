@@ -41,7 +41,7 @@
                   @click="showPhone = !showPhone"
                 >
                   mdi-phone
-                </v-icon> to show
+                </v-icon> to expand
               </v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>
@@ -70,7 +70,7 @@
                         @click="showEmail = !showEmail"
                       >
                         mdi-email
-                      </v-icon> to show
+                      </v-icon> to expand
               </v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>
@@ -87,7 +87,7 @@
             <v-list-item-content
               v-if="showAddress"
             >
-              <v-list-item-title>416 East 117th Street</v-list-item-title>
+              <v-list-item-title>East 117th Street</v-list-item-title>
               <v-list-item-subtitle>New York, New York 10035</v-list-item-subtitle>
             </v-list-item-content>
             <v-list-item-content
@@ -99,7 +99,7 @@
                         @click="showAddress = !showAddress"
                       >
                         mdi-map-marker
-                      </v-icon> to show
+                      </v-icon> to expand
               </v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>

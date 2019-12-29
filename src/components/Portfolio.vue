@@ -7,12 +7,16 @@
               My Portfolio
             </span>
             <span class="font-weight-thin subtitle-1">
-              Brisket boudin short loin tail cupim. Kevin doner pig venison meatball.
-              Pork pastrami salami sausage, meatloaf brisket chicken pork loin landjaeger
-              andouille kevin pancetta. Shank spare ribs chuck picanha fatback pork belly
-              chicken drumstick tongue pork chop kielbasa. Swine pork loin cupim chislic
-              hamburger pig jerky tail. Turkey chicken pig shank porchetta ribeye
-              cupim pork chop salami flank prosciutto.
+              Management is doing things right; leadership is doing the right things.
+            </span>
+            <br />
+            <span class="font-weight-bold subtitle-1">
+              - Peter F. Drucker
+            </span>
+            <br />
+            <br />
+            <span class="title" style="color: gray">
+              These  are the projects to which I have made my largest contributions
             </span>
           </div>
           <v-data-table
@@ -80,7 +84,7 @@ export default {
         value: 'imagePath',
       },
       {
-        text: 'Description',
+        text: 'Description (click a logo to visit)',
         align: 'left',
         sortable: false,
         value: 'fact',
@@ -90,25 +94,22 @@ export default {
       {
         name: 'Flux Mobility',
         imagePath: '../assets/flux.png',
-        fact: 'Bacon ipsum dolor amet biltong brisket tenderloin, rump filet mignon jowl hamburger shoulder landjaeger corned.',
+        fact: 'Flux is an employee success platform that enables talent growth by identifying talents skills and experiences and then placing that talent in correspondding roles and projects. I have helped build the platform from the ground up! ',
       },
       {
         name: 'Itemize Retriever',
         imagePath: '../assets/itemize.jpg',
-        level: '⭐⭐⭐⭐',
-        fact: 'AWS was launched in July of 2002. The first public facing service was SQS in November 2004.',
+        fact: "Itemize's Retriever is summed up as: 'Itemize Retriever is a friendly, easy-to-use automated invoice and payables system that simplifies tedious and time-consuming manual data entry.' I was responsible for the front end development lifecycle from creation to launch.",
       },
       {
         name: 'Top Rated Local®',
         imagePath: '../assets/topRatedLocal.png',
-        level: '⭐⭐⭐⭐',
-        fact: 'React grew out of the need at Facebook to have a more efficent, modularized, and component driven codebase.',
+        fact: "The Top Rated Local® motto is: 'Everyday, we analyze ratings & reviews from hundreds of verified review sites online and then rank businesses based on their overall Rating Score™. This allows you to quickly and confidently find the truly Top Rated Local® businesses in your area.' I contributed the core functionality that, operating via queueing systems, would aggregate and normalize the ratings (internet wide) for a particular business.",
       },
       {
         name: 'Marketing 360®',
         imagePath: '../assets/marketing360.png',
-        level: '⭐⭐⭐⭐',
-        fact: "Jira 1.0 was launched in 2002 as an issue tracker. It was paid for with $10,000 of credit card debt by it's two founders",
+        fact: "The Marketing 360® motto is: 'The #1 marketing platform® for small business. Everything You Need to Grow Your Business. Fuel your brand® with the #1 marketing platform® for small business. Best part is, we do everything for you.' I worked on integrating a UTM tracking script within a variety of e-commerce platforms that are managed by Marketing 360®.",
       },
     ],
   }),
