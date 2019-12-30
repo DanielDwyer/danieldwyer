@@ -3,7 +3,10 @@
   <v-container grid-list-md>
     <v-layout row wrap align-center text-center>
       <v-flex xs12>
-        <div>
+        <div class="display-1 font-weight-bold">
+          🗽 Welcome
+        </div>
+        <div class="blue--text">
           <span class="welcome-1">Welcome </span>
           <span class="welcome-2">歡迎光臨  </span>
           <span class="welcome-3">Bienvenue </span>
@@ -20,12 +23,10 @@
         <br />
         <div class="title">
           Hey there, I am glad you stopped by.
-          My contact information, if needed, is listed above, feel
-          free to reach out, I would love to hear from you. My intention for this
-          website, which I call LinkeDan, is to showcase the skills and experiences
+          LinkeDan is a place for me to showcase the skills and experiences
           I have gained while working
           as a Full Stack JavaScript Developer. As you will see, I love getting my hands
-          dirty with both back and front end challenges. In my almost four years working
+          dirty with both back and front end challenges. In my years working
           as a Full Stack developer, I have been able to contribute to a large variety of
           codebases, utilize fun and exciting frameworks and libraries, and most
           importantly work with some great and passionate folks. With a can-do attitude,
@@ -37,7 +38,8 @@
           When I am not crushing some code at Flux Work in New York City,
           I am most likely spending time with my
           lovely wife Lydia and our two year old black lab-mix, Marcy.
-          My hobbies include table tennis, traveling, cycling, music, and hiking.
+          My hobbies include table tennis, traveling, cycling, music, and hiking. I would love
+          to hear from you, my contact information is listed above.
         </div>
       </v-flex>
     </v-layout>

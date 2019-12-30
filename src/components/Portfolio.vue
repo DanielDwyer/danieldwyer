@@ -3,21 +3,17 @@
       <v-layout row wrap align-center text-center>
         <v-flex xs12>
           <div>
-            <span class="display-1 font-weight-bold">
-              My Portfolio
-            </span>
-            <span class="font-weight-thin subtitle-1">
+            <div class="display-1 font-weight-bold">
+              🗄️ Portfolio
+            </div>
+            <span class="font-weight-thin subtitle-1 green--text">
               Management is doing things right; leadership is doing the right things.
             </span>
             <br />
-            <span class="font-weight-bold subtitle-1">
+            <span class="font-weight-bold subtitle-1 blue--text">
               - Peter F. Drucker
             </span>
             <br />
-            <br />
-            <span class="title" style="color: gray">
-              These  are the projects to which I have made my largest contributions
-            </span>
           </div>
           <v-data-table
             :headers="headers"

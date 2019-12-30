@@ -3,21 +3,18 @@
       <v-layout row wrap align-center text-center>
         <v-flex xs12>
           <div>
-            <span class="display-1 font-weight-bold">
-              Education
-            </span>
-            <span class="font-weight-thin subtitle-1">
+            <div class="display-1 font-weight-bold">
+              🎓 Education
+            </div>
+            <span class="font-weight-thin subtitle-1 green--text">
               Education is the passport to the future, for tomorrow
               belongs to those who prepare for it today.
             </span>
             <br />
-            <span class="font-weight-bold subtitle-1">
+            <span class="font-weight-bold subtitle-1 blue--text">
               - Malcolm X
             </span>
             <br />
-            <span class="title" style="color: gray">
-              These schools allowed me to create a solid foundation
-            </span>
           </div>
           <v-data-table
             :headers="headers"
@@ -117,7 +114,7 @@ export default {
       time: "December '12",
       location: 'Paul Smiths, New York',
       paragraphA: "I received my Bachelor's Degree in December 2012 from Paul Smith' s College, located in the heart of the Adirondacks in Northern New York. Living in the Adirondacks allowed me to pair my studies with the outdoor pursuits that I call passions. I graduated with a 3.93 GPA. I am very proud of the many challenges that I was able to turn into accomplishments during my time in the Adirondacks.",
-      paragraphB: "The Adirondacks, home to the 1932 and 1980 Olympics, are home to 46 peaks that top out at 4,000 feet or higher (according to measurements from the 1800’s). The is a club, The 46ers, for folks adventurous enough to summit them all. Proudly, I am member # 6826. Life is the 'Dacks is all about outdoor adventures. Paul Smith’s College mission statement, ‘Its all about the experience‘, couldn’t be more on point. The forests, mountains, and lakes were our classrooms. The scholastic and personal lessons and accomplishments from my time in the Adirondacks have really made me into the man I am today.",
+      paragraphB: "The Adirondacks, home to the 1932 and 1980 Olympics, are home to 46 peaks that top out at 4,000 feet or higher (according to measurements from the 1800’s). There is a club, The 46ers, for folks adventurous enough to summit them all. Proudly, I am member # 6826. Life is the 'Dacks is all about outdoor adventures. Paul Smith’s College mission statement, ‘Its all about the experience‘, couldn’t be more on point. The forests, mountains, and lakes were our classrooms. The scholastic and personal lessons and accomplishments from my time in the Adirondacks have really made me into the man I am today.",
     }],
     singleExpand: false,
     headers: [

@@ -3,20 +3,17 @@
       <v-layout row wrap align-center text-center>
         <v-flex xs12>
           <div>
-            <span class="display-1 font-weight-bold">
-              Skills
-            </span>
-            <span class="font-weight-thin subtitle-1">
+            <div class="display-1 font-weight-bold">
+              🤹🏽 Skills
+            </div>
+            <span class="font-weight-thin subtitle-1 green--text">
               Ignorance and bungling with love are better than wisdom and skill without.
             </span>
             <br />
-            <span class="font-weight-bold subtitle-1">
+            <span class="font-weight-bold subtitle-1 blue--text">
               - Henry David Thoreau
             </span>
             <br />
-            <span class="title" style="color: gray">
-              These are the tools and technologies I am skilled at
-            </span>
           </div>
           <v-data-table
             :headers="headers"

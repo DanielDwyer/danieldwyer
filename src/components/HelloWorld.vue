@@ -87,7 +87,7 @@
             <v-list-item-content
               v-if="showAddress"
             >
-              <v-list-item-title>East 117th Street</v-list-item-title>
+              <v-list-item-title>East Harlem</v-list-item-title>
               <v-list-item-subtitle>New York, New York 10035</v-list-item-subtitle>
             </v-list-item-content>
             <v-list-item-content
@@ -129,7 +129,7 @@
       </v-flex>
       <v-flex xs12 sm3>
         <h1 class="display-1 font-weight-thin my-5">
-          I'm Daniel Dwyer
+          I'm Daniel Dwyer 💻
         </h1>
       </v-flex>
     </v-layout>

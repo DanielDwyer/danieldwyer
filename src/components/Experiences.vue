@@ -3,21 +3,18 @@
     <v-layout row wrap align-center text-center>
         <v-flex xs12>
           <div>
-            <span class="display-1 font-weight-bold">
-              Experiences
-            </span>
-            <span class="font-weight-thin subtitle-1">
+            <div class="display-1 font-weight-bold">
+              👨‍💻Experiences
+            </div>
+            <span class="font-weight-thin subtitle-1 blue--text">
               The purpose of life is to live it, to taste experience to the utmost,
               to reach out eagerly and without fear for newer and richer experience.
             </span>
             <br />
-            <span class="font-weight-bold subtitle-1">
+            <span class="font-weight-bold subtitle-1 green--text">
               - Eleanor Roosevelt
             </span>
             <br />
-            <span class="title" style="color: gray">
-              These experiences have made me who I am
-            </span>
           </div>
           <v-btn
             small
@@ -195,6 +192,14 @@ export default {
     expanded() {
       if (this.expanded.length > 0) {
         this.mainActionText = 'Close All';
+      } else {
+        this.mainActionText = 'Expand All';
+      }
+      const expandedNames = this.expanded.map(c => c.name);
+      if (expandedNames.includes('Flux Work')) {
+        this.secondaryActionText = 'Close Present Experience';
+      } else {
+        this.secondaryActionText = 'Expand Present Experience';
       }
     },
   },
