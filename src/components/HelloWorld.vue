@@ -104,6 +104,28 @@
             </v-list-item-content>
           </v-list-item>
         </v-list>
+        <span
+          v-if="showPhone ===false && showEmail === false && showAddress === false"
+          class="subtitle-2"
+          @click="showPhone = true;showEmail = true;showAddress = true;"
+        >
+          expand all
+          <v-icon
+            color="secondary"
+          >
+           mdi-phone
+          </v-icon>
+          <v-icon
+            color="secondary"
+          >
+           mdi-email
+          </v-icon>
+          <v-icon
+            color="secondary"
+          >
+           mdi-map-marker
+          </v-icon>
+        </span>
       </v-flex>
       <v-flex xs12 sm3>
         <h1 class="display-1 font-weight-thin my-5">

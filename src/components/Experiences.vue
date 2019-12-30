@@ -111,6 +111,7 @@
                     <div class="black--text font-weight-thin subtitle-1">
                       {{ item.paragraphA }}
                       <br />
+                      <br />
                       {{ item.paragraphB }}
                     </div>
                   </v-card-text>

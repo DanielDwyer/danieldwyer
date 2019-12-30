@@ -33,7 +33,8 @@
         </div>
         <br />
         <div class="title">
-          When I am not crushing some code, I am most likely spending time with my
+          When I am not crushing some code at Flux Work in New York City,
+          I am most likely spending time with my
           lovely wife Lydia and our two year old black lab-mix, Marcy.
           My hobbies include table tennis, traveling, cycling, music, and hiking.
         </div>

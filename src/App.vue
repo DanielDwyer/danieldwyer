@@ -6,24 +6,24 @@
       <Welcome />
       <v-divider class="divider" />
       <Experiences />
-      <span @click="scrollTo">
+      <div @click="scrollTo" class="top">
         TOP<v-icon color="primary">mdi-apple-keyboard-shift</v-icon>
-      </span>
+      </div>
       <v-divider class="divider-special" />
       <Skills />
-      <span @click="scrollTo">
+      <div @click="scrollTo" class="top">
         TOP<v-icon color="primary">mdi-apple-keyboard-shift</v-icon>
-      </span>
+      </div>
       <v-divider class="divider-special" />
       <Portfolio />
-      <span @click="scrollTo">
+      <div @click="scrollTo" class="top">
         TOP<v-icon color="primary">mdi-apple-keyboard-shift</v-icon>
-      </span>
+      </div>
       <v-divider class="divider-special" />
       <Education />
-      <span @click="scrollTo" class="top">
+      <div @click="scrollTo" class="top">
         TOP<v-icon color="primary">mdi-apple-keyboard-shift</v-icon>
-      </span>
+      </div>
     </v-content>
     <v-footer color="secondary" class="display-1 font-weight-thin">
       <span>DPD</span>
@@ -74,5 +74,8 @@ export default {
 }
 .divider-special {
   margin: 0 7.5em 7.5em 7.5em;
+}
+.top {
+  padding-top: 7.5em;
 }
 </style>
