@@ -165,7 +165,7 @@ export default {
         role: 'Full Stack Engineer',
         time: "January '19 to Present",
         location: 'New York, New York',
-        paragraphA: 'I work on a small, distributed, but growing team (I joined as the fourth engineer). Working within a JavaScript ecosystem, we are building an enterprise-scale modern platform with Vue, Node, and PostgreSQL; all hosted on AWS. Flux is an employee success platform that enables talent growth and performance through engagement, advocacy and safe, intelligent connection of best-fit employees to the evolving work needs of a business as they happen',
+        paragraphA: 'I work on a small, distributed, but growing team (I joined as the fourth engineer). Working within a JavaScript ecosystem, we are building an enterprise-scale modern platform with Vue, Node, and PostgreSQL; all hosted on AWS. Flux is an employee success platform that enables talent growth and performance through engagement, advocacy and safe, intelligent connection of best-fit employees to the evolving work needs of a business as they happen.',
         paragraphB: 'Having never worked at a start-up before working at Flux, I was thrilled to see that opportunities were endless -- I can build and develop as much as my heart desires (we gained about 7,000 users in the past year). Learning and growth have been paramount for me here at Flux. I am blessed to be surrounded by a wise team with a proven track record.',
       },
       {
