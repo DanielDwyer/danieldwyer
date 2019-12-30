@@ -22,7 +22,8 @@
           Hey there, I am glad you stopped by.
           My contact information, if needed, is listed above, feel
           free to reach out, I would love to hear from you. My intention for this
-          website is to showcase the skills and experiences I have gained while working
+          website, which I call LinkeDan, is to showcase the skills and experiences
+          I have gained while working
           as a Full Stack JavaScript Developer. As you will see, I love getting my hands
           dirty with both back and front end challenges. In my almost four years working
           as a Full Stack developer, I have been able to contribute to a large variety of

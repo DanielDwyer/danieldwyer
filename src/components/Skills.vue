@@ -48,6 +48,20 @@
                 max-width="5em"
               />
               <v-img
+                v-if="item.imagePath === '../assets/npm.svg'"
+                :src="require('../assets/npm.svg')"
+                contain
+                max-height="5em"
+                max-width="5em"
+              />
+              <v-img
+                v-if="item.imagePath === '../assets/cypress.svg'"
+                :src="require('../assets/cypress.svg')"
+                contain
+                max-height="5em"
+                max-width="5em"
+              />
+              <v-img
                 v-if="item.imagePath === '../assets/atlassian.svg'"
                 :src="require('../assets/atlassian.svg')"
                 contain
@@ -69,8 +83,22 @@
                 max-width="5em"
               />
               <v-img
+                v-if="item.imagePath === '../assets/express.svg'"
+                :src="require('../assets/express.svg')"
+                contain
+                max-height="5em"
+                max-width="5em"
+              />
+              <v-img
                 v-if="item.imagePath === '../assets/vue.svg'"
                 :src="require('../assets/vue.svg')"
+                contain
+                max-height="5em"
+                max-width="5em"
+              />
+              <v-img
+                v-if="item.imagePath === '../assets/vuetifyjs.svg'"
+                :src="require('../assets/vuetifyjs.svg')"
                 contain
                 max-height="5em"
                 max-width="5em"
@@ -117,6 +145,13 @@
                 max-height="5em"
                 max-width="5em"
               />
+              <v-img
+                v-if="item.imagePath === '../assets/mocha.svg'"
+                :src="require('../assets/mocha.svg')"
+                contain
+                max-height="5em"
+                max-width="5em"
+              />
             </template>
           </v-data-table>
         </v-flex>
@@ -157,14 +192,19 @@ export default {
         fact: 'Brendan Eich wrote the prototype for JavaScript in 10 days.',
       },
       {
-        name: 'AWS',
-        imagePath: '../assets/aws.svg',
-        fact: 'AWS was launched in July of 2002. The first public facing service was SQS in November 2004.',
-      },
-      {
         name: 'React',
         imagePath: '../assets/react.svg',
         fact: 'React grew out of the need at Facebook to have a more efficent, modularized, and component driven codebase.',
+      },
+      {
+        name: 'Node Package Manager (NPM)',
+        imagePath: '../assets/npm.svg',
+        fact: 'More than one billion packages are downloaded each day.',
+      },
+      {
+        name: 'Cypress.io',
+        imagePath: '../assets/cypress.svg',
+        fact: 'Cypress is a next generation front end testing tool built for the modern web. We address the key pain points developers and QA engineers face when testing modern applications.',
       },
       {
         name: 'Atlassian',
@@ -179,12 +219,27 @@ export default {
       {
         name: 'Node',
         imagePath: '../assets/nodejs.svg',
-        fact: "Node.js's goal is to “provide an easy way to build scalable network programs”",
+        fact: "Node.js's goal is to “provide an easy way to build scalable network programs”.",
+      },
+      {
+        name: 'Express.js',
+        imagePath: '../assets/express.svg',
+        fact: 'Express.js has 6,029,250 weekly downloads, on NPM alone.',
+      },
+      {
+        name: 'AWS',
+        imagePath: '../assets/aws.svg',
+        fact: 'AWS was launched in July of 2002. The first public facing service was SQS in November 2004.',
       },
       {
         name: 'Vue',
         imagePath: '../assets/vue.svg',
-        fact: 'Vue is known to be super easy to learn.',
+        fact: 'Vue.js is a progressive framework for JavaScript used to build web interfaces and one-page applications. Not just for web interfaces, Vue.js is also used both for desktop and mobile app development with Electron framework.',
+      },
+      {
+        name: 'Vuetify',
+        imagePath: '../assets/vuetifyjs.svg',
+        fact: 'Vuetify is an open source MIT project for building user interfaces for web and mobile applications on top of the Vue.js framework.',
       },
       {
         name: 'Docker',
@@ -204,7 +259,7 @@ export default {
       {
         name: 'Linux (Command Line)',
         imagePath: '../assets/linux.svg',
-        fact: 'Before we had windows, we had the command line.',
+        fact: 'There is no place like ~.',
       },
       {
         name: 'Git',
@@ -215,6 +270,11 @@ export default {
         name: 'Git Hub',
         imagePath: '../assets/github.svg',
         fact: 'Microsoft aquired Github in 2018 for 7.5 billion dollars.',
+      },
+      {
+        name: 'Mocha',
+        imagePath: '../assets/mocha.svg',
+        fact: 'Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases',
       },
     ],
   }),
