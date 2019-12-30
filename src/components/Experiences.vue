@@ -4,7 +4,7 @@
         <v-flex xs12>
           <div>
             <div class="display-1 font-weight-bold">
-              👨‍💻Experiences
+              👨‍💻 Experiences
             </div>
             <span class="font-weight-thin subtitle-1 blue--text">
               The purpose of life is to live it, to taste experience to the utmost,
@@ -190,16 +190,16 @@ export default {
   }),
   watch: {
     expanded() {
-      if (this.expanded.length > 0) {
+      const expandedNames = this.expanded.map(c => c.name);
+      if (expandedNames.includes('Flux Work') && this.expanded.length === 1) {
+        this.secondaryActionText = 'Close Present Experience';
+        this.mainActionText = 'Expand All';
+      } else if (expandedNames.includes('Flux Work') && this.expanded.length > 1) {
+        this.secondaryActionText = 'Close Present Experience';
         this.mainActionText = 'Close All';
       } else {
-        this.mainActionText = 'Expand All';
-      }
-      const expandedNames = this.expanded.map(c => c.name);
-      if (expandedNames.includes('Flux Work')) {
-        this.secondaryActionText = 'Close Present Experience';
-      } else {
         this.secondaryActionText = 'Expand Present Experience';
+        this.mainActionText = 'Expand All';
       }
     },
   },
