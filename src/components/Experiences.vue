@@ -228,3 +228,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.v-data-table-header-mobile__wrapper {
+  display: none;
+}
+</style>
