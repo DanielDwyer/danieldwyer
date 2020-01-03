@@ -78,4 +78,7 @@ export default {
 .top {
   padding-top: 7.5em;
 }
+.v-data-table-header-mobile__wrapper {
+  display: none;
+}
 </style>
