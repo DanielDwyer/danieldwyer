@@ -6,11 +6,11 @@
             <div class="display-1 font-weight-bold">
               🤹🏽 Skills
             </div>
-            <span class="font-weight-thin subtitle-1 green--text">
+            <span class="headline blue--text">
               Ignorance and bungling with love are better than wisdom and skill without.
             </span>
             <br />
-            <span class="font-weight-bold subtitle-1 blue--text">
+            <span class="font-weight-bold headline green--text">
               - Henry David Thoreau
             </span>
             <br />

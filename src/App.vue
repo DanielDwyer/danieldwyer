@@ -66,8 +66,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-  background-color: white;
+  background-color: #F5F5F5;
 }
 .divider {
   margin: 7.5em;
@@ -80,5 +79,9 @@ export default {
 }
 .v-data-table-header-mobile__wrapper {
   display: none;
+}
+td.text-left {
+  line-height: 2em;
+  font-size: 20em;
 }
 </style>

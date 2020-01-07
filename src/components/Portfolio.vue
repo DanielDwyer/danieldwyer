@@ -6,11 +6,11 @@
             <div class="display-1 font-weight-bold">
               🗄️ Portfolio
             </div>
-            <span class="font-weight-thin subtitle-1 green--text">
+            <span class="headline blue--text">
               Management is doing things right; leadership is doing the right things.
             </span>
             <br />
-            <span class="font-weight-bold subtitle-1 blue--text">
+            <span class="font-weight-bold headline green--text">
               - Peter F. Drucker
             </span>
             <br />

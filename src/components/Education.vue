@@ -6,12 +6,12 @@
             <div class="display-1 font-weight-bold">
               🎓 Education
             </div>
-            <span class="font-weight-thin subtitle-1 green--text">
+            <span class="headline blue--text">
               Education is the passport to the future, for tomorrow
               belongs to those who prepare for it today.
             </span>
             <br />
-            <span class="font-weight-bold subtitle-1 blue--text">
+            <span class="font-weight-bold headline green--text">
               - Malcolm X
             </span>
             <br />

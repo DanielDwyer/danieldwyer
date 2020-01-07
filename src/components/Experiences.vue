@@ -6,12 +6,12 @@
             <div class="display-1 font-weight-bold">
               👨‍💻 Experiences
             </div>
-            <span class="font-weight-thin subtitle-1 blue--text">
+            <span class="headline blue--text">
               The purpose of life is to live it, to taste experience to the utmost,
               to reach out eagerly and without fear for newer and richer experience.
             </span>
             <br />
-            <span class="font-weight-bold subtitle-1 green--text">
+            <span class="font-weight-bold headline green--text">
               - Eleanor Roosevelt
             </span>
             <br />

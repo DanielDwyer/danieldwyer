@@ -6,7 +6,7 @@
         <div class="display-1 font-weight-bold">
           🗽 Welcome
         </div>
-        <div class="blue--text">
+        <div class="blue--text headline">
           <span class="welcome-1">Welcome </span>
           <span class="welcome-2">歡迎光臨  </span>
           <span class="welcome-3">Bienvenue </span>
