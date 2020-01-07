@@ -19,10 +19,11 @@
           dense
           :style="roleADexStyle"
         >
-          <v-list-item >
-            <v-list-item-icon
-              @click="showPhone = !showPhone"
-            >
+          <v-list-item
+            class="contact-info"
+            @click="showPhone = !showPhone"
+          >
+            <v-list-item-icon>
               <v-icon color="primary">mdi-phone</v-icon>
             </v-list-item-icon>
 
@@ -48,10 +49,11 @@
 
           <v-divider inset></v-divider>
 
-          <v-list-item >
-            <v-list-item-icon
-              @click="showEmail = !showEmail"
-            >
+          <v-list-item
+            class="contact-info"
+            @click="showEmail = !showEmail"
+          >
+            <v-list-item-icon>
               <v-icon color="primary">mdi-email</v-icon>
             </v-list-item-icon>
 
@@ -77,10 +79,11 @@
 
           <v-divider inset></v-divider>
 
-          <v-list-item >
-            <v-list-item-icon
-              @click="showAddress = !showAddress"
-            >
+          <v-list-item
+            class="contact-info"
+            @click="showAddress = !showAddress"
+          >
+            <v-list-item-icon>
               <v-icon color="primary">mdi-map-marker</v-icon>
             </v-list-item-icon>
 
@@ -104,6 +107,7 @@
             </v-list-item-content>
           </v-list-item>
         </v-list>
+        <div  class="contact-info">
         <span
           v-if="showPhone ===false && showEmail === false && showAddress === false"
           class="subtitle-2"
@@ -126,6 +130,7 @@
            mdi-map-marker
           </v-icon>
         </span>
+        </div>
       </v-flex>
       <v-flex xs12 sm3>
         <h1 class="display-1 font-weight-thin my-5">
@@ -153,7 +158,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.example-class {
-  color: red;
+.contact-info {
+  height: 2.5em;
 }
 </style>
