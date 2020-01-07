@@ -82,6 +82,6 @@ export default {
 }
 td.text-left {
   line-height: 2em;
-  font-size: 2em;
+  font-size: 1rem;
 }
 </style>
